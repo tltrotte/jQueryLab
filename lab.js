@@ -3,10 +3,12 @@ console.log("Its Working!!!")
 
 $("i").on("click", function() {
   		$("#popUp").css("display", "none");
+
   	});
 
 $(".available").on("click", function(){
   $("#popUp").css("display", "flex");
+  
 });
 
   $("#reserve").on("click", function(){
